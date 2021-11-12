@@ -34,4 +34,11 @@ public class ConversorDeNumeroRomanoTest {
         assertEquals(22, numero);
     }
 
+    @Test
+    public void deveEntenderNumerosComoIX() {
+        ConversorDeNumeroRomano romano = new ConversorDeNumeroRomano();
+        int numero = romano.converte("IX");
+        assertEquals(9, numero);
+    }
+
 }
