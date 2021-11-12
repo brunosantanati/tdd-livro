@@ -13,4 +13,12 @@ public class ConversorDeNumeroRomanoTest {
         assertEquals(1, numero);
     }
 
+    @Test
+    public void deveEntenderOSimboloV() {
+        ConversorDeNumeroRomano romano = new ConversorDeNumeroRomano();
+        int numero = romano.converte("V");
+        assertEquals(5, numero);
+    }
+
+
 }
