@@ -8,6 +8,7 @@ public class ConversorDeNumeroRomano {
     private static Map<String, Integer> tabela =
             new HashMap<String, Integer>() {{
                 put("I", 1);
+                put("II", 2);
                 put("V", 5);
                 put("X", 10);
                 put("L", 50);
